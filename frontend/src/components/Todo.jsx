@@ -79,6 +79,7 @@ setTodoArr(res.data.data)
 
   return (
     <div>
+          <h1>TODO-APP</h1>
         <form onSubmit={submit} >
       <input type="text" placeholder={update?"update-todo":"add-todo"} onChange={change} value={text} />
       <button>{update?"update-todo":"add-todo"}</button>
