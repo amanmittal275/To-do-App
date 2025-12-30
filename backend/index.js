@@ -17,6 +17,11 @@ let todo=[
     title:"learn javascript",
     fleg:true
 },
+{
+    id:3,
+    title:"learn C++",
+    fleg:true
+},
 
 ]
 
